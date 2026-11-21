@@ -1,0 +1,4 @@
+catalog build: 1200 partitions, 120000000 total rows (simulated), 1659.2 ms
+predicate: key BETWEEN 55800000 AND 64199999 (span = 84 partitions' nominal width, 7.00% of key space)
+partitions scanned: 86 / 1200
+PRUNE_RATE_PCT: 92.8

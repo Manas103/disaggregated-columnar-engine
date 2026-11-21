@@ -1,0 +1,12 @@
+ok: every zone map bounds every row it was built from
+ok: pruned query result matches the brute-force oracle (exact row/match count, sum within float tolerance)
+ok: at least one query actually skipped partitions (pruning is not a no-op)
+ok: consistent hashing only moves keys to newly added workers, never between old ones
+ok: modulo hashing (contrast case) does move keys between two pre-existing workers
+ok: cache starts empty
+ok: cache contains a partition after put
+ok: cache returns the exact rows it was given
+ok: an unrelated key is still a miss
+ok: 8 concurrent queries sharing one cache all compute the identical aggregate
+
+ALL CHECKS PASSED

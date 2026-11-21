@@ -1,0 +1,9 @@
+build/
+build-tsan/
+build-asan/
+*.o
+*.obj
+*.exe
+__pycache__/
+.pytest_cache/
+*.log

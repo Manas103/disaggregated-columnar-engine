@@ -1,0 +1,5 @@
+partitions: 1200, scale-out: 4 workers -> 6 workers
+consistent hashing: 774 / 1200 partitions kept their owner
+modulo hashing:     400 / 1200 partitions kept their owner
+CONSISTENT_RESIDENCY_PCT: 64.5
+MODULO_RESIDENCY_PCT: 33.3
